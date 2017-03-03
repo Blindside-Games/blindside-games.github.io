@@ -2,16 +2,16 @@
 <html>
 
 <head profile="http://www.w3.org/2005/10/profile">
-        <title>Blindside Games</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Blindside Games">
-        <meta name="keywords" content="Monogame, Blindside, Games">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Robert Woods">
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    </head>
+    <title>Blindside Games</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Blindside Games">
+    <meta name="keywords" content="Monogame, Blindside, Games">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Robert Woods">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
 
 <body>
     <div class="menu-bar">
@@ -26,64 +26,12 @@
 
     <div class="page-title">
     </div>
-    <div class="slideshow">
-        <div class="w3-content">
-            <a href="https://github.com/robertjawoods/BejeweledBot"> <img class="slides" src="../images/bejeweledbot.png"></a>
-            <a href="https://github.com/robertjawoods/BejeweledBot"> <img class="slides" src="../images/me.jpg"></a>
-        
-            <div class="w3-row-padding w3-section">
-                <div class="w3-col s4">
-                    <img class="demo w3-opacity w3-hover-opacity-off" src="../images/bejeweledbot.png" style="width:100%" onclick="currentDiv(1)">
-                </div>
-                <div class="w3-col s4">
-                    <img class="demo w3-opacity w3-hover-opacity-off" src="../images/me.jpg" style="width:100%" onclick="currentDiv(2)">
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n) {
-    showDivs(slideIndex += n);
-    }
-
-    function currentDiv(n) {
-    showDivs(slideIndex = n);
-    }
-
-    function showDivs(n) 
-    {
-        var i;
-        var x = document.getElementsByClassName("slides");
-        var dots = document.getElementsByClassName("demo");
-        if (n > x.length) 
-        {
-            slideIndex = 1
-        }
-        if (n < 1) 
-        {
-            slideIndex = x.length
-        }
-        for (i = 0; i < x.length; i++) 
-        {
-            x[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) 
-        {
-            dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-        }
-        x[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " w3-opacity-off";
-    }
-    </script>
-
+    <div class="a-summoners-tale">
+        <img class="header" src="../images/header.png" alt="A Summoner's Tale'" title="A Summoner's Tale">
+        <h1 class="title">A Summoner's Tale</h1>
+        <p>A Summoner's Tale takes place on a fictional planet named Gaia. Gaia is mainly inhabited by humans, although they share the planet with a plethora of magical creatures. Many thousands of years ago, the first summoner was born. His true identity is lost to the ages, the summoners of today simply refer to him as The Originator. The Originator founded the Order of Summoners, a group dedicated to the protection of Gaia's denizens. </p>
+     </div>
 </body>
-
-<footer>
-    <p>Copyright Robert Woods 2017 &#169;</p>
-</footer>
 
 </html>
