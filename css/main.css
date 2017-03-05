@@ -21,7 +21,7 @@ background-image: url("../images/websitebackground.png");
     padding: 0;
     overflow: hidden;
     background-color: #fff; 
-    border-bottom: 1px solid #000;
+    border-bottom: 3px solid #000;
     width: 100%;
     left: 0;
     top: 0;
@@ -41,7 +41,7 @@ background-image: url("../images/websitebackground.png");
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
 }
 
@@ -87,13 +87,13 @@ footer
 footer p
 {
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
     color: #2d3142;
 }
 
 .a-summoners-tale .title
 {
-    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     position: absolute;
     top: 40%;
@@ -117,6 +117,18 @@ footer p
     color:rgb(0, 0, 0);
 }
 
+.about-title
+{
+font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+    color:rgb(0, 0, 0);
+}
 .contact-form
 {
     width: 400px; 
@@ -137,7 +149,7 @@ footer p
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
     font-size: 20px
 }
 
@@ -168,7 +180,7 @@ footer p
 
 p 
 {
-    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;;
     font-size: 20px;
 }
 
