@@ -2,11 +2,23 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 768px)
+{ 
+    .bio
+    {
+        text-align: center;
+        max-width: 100%;
+        display: block;
+        
+        position: relative;
+        top: 100px;
+        color:rgb(0, 0, 0);
+    }
+}
+
 html 
 {
-    /*background-color:#f3f3f3;*/
-
-background-image: url("../images/websitebackground.png");
+    background-image: url("../images/websitebackground.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
